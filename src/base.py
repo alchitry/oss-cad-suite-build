@@ -773,7 +773,7 @@ def generateYaml(target, build_arch, write_to_file):
 			yaml_content +="        run: echo \"date=$(date +'%Y-%m-%d')\" >> $GITHUB_OUTPUT\n"
 		yaml_content +="      - uses: actions/checkout@v4\n"
 		yaml_content +="        with:\n"
-		yaml_content +="          repository: 'yosyshq/oss-cad-suite-build'\n"
+		yaml_content +="          repository: 'alchitry/oss-cad-suite-build'\n"
 		if not target.top_package:
 			yaml_content +="      - name: Cache sources\n"
 			yaml_content +="        id: cache-sources\n"

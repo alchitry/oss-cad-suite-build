@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -46,7 +46,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -81,7 +81,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -118,7 +118,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -156,7 +156,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -190,7 +190,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -226,7 +226,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -260,7 +260,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -295,7 +295,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -332,7 +332,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -374,7 +374,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Cache sources
         id: cache-sources
         uses: actions/cache@v4
@@ -411,7 +411,7 @@ jobs:
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
-          repository: 'yosyshq/oss-cad-suite-build'
+          repository: 'alchitry/oss-cad-suite-build'
       - name: Download linux-x64-graphviz
         run: wget -qO- "https://github.com/alchitry/oss-cad-suite-build/releases/download/bucket-linux-x64/linux-x64-graphviz.tgz" --retry-connrefused --read-timeout=20 --timeout=15 --retry-on-http-error=404 | tar xvfz -
       - name: Download linux-x64-icestorm
