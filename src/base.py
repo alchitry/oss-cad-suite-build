@@ -723,7 +723,7 @@ def generateYaml(target, build_arch, write_to_file):
 						"      - completed\n\n".format(arch_chain[build_arch])
 	yaml_content += "jobs:\n"
 
-	BUCKET_URL = "https://github.com/yosyshq/oss-cad-suite-build/releases/download/bucket"
+	BUCKET_URL = "https://github.com/alchitry/oss-cad-suite-build/releases/download/bucket"
 	for t in build_order:
 		arch = t[0]
 		target = targets[t[1]]

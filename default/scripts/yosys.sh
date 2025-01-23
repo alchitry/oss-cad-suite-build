@@ -8,6 +8,8 @@ elif [ ${ARCH} == 'windows-x64' ]; then
 	echo 'CONFIG := msys2-64' > Makefile.conf
 	echo 'TCL_VERSION := tcl86' >> Makefile.conf
 	echo 'OS := MINGW' >> Makefile.conf
+	echo 'LINK_ABC := 1' >> Makefile.conf
+  echo 'LIBS := -lshlwapi' >> Makefile.conf
 	sed 's|PYTHON := \$(shell cygpath -w -m \$(PREFIX)/bin/python3)|PYTHON := /usr/bin/python3|g' -i backends/smt2/Makefile.inc
 else
 	make config-gcc

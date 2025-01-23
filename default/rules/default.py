@@ -94,3 +94,17 @@ Target(
     readme = 'README',
     resources = [ 'system-resources' ],
 )
+
+Target(
+    name = 'alchitry-labs',
+    release_name = 'oss-cad-suite',
+    top_package = True,
+    dependencies = [
+        'yosys',
+        'nextpnr-ice40',
+        'icestorm',
+    ],
+    branding = 'OSS CAD Suite',
+    readme = 'README',
+    resources = [ 'system-resources' ],
+)
