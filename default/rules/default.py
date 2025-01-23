@@ -106,5 +106,5 @@ Target(
     ],
     branding = 'OSS CAD Suite',
     readme = 'README',
-    resources = [ 'system-resources' ],
+    resources = [ 'system-resources-min' ],
 )
